@@ -1,45 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Styles Conference</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet"
-  href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
-  </head>
-  <body>
-    <header class="primary-header container group">
-        <h1 class="logo">
-          <a href="index.html">Magic <br> Hackathon</a>
-        </h1>
-    </header>
-    <section class="hero container">
-      <section>
-        <h2>The End All Be All Of Landing Pages</h2>
-      </section>
-    </section>
-    <section class="row">
-      <div class="grid">
-        <section class="teaser col-1-3">
-          
-          <p>Team Member 1</p>
-        </section><section class="teaser col-1-3">
-          
-          <p>Team Member 2</p>
-        </section><section class="teaser col-1-3">
-          
-          <p>Team Member 3</p>
-        </section><section class="teaser col-1-3">
-          
-          <p>Team Member 4</p>
-        </section><section class="teaser col-1-3">
-          
-          <p>Team Member 5</p>
-        </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Awesome Team</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>MeeT INJINEERUKAL-S</h1>
+    <p>We build amazing things together!</p>
+  </header>
+
+  <section class="team-intro">
+    <h2>About Us</h2>
+    <p>We're a passionate value collaboration, creativity, and a strong work ethic.</p>
+  </section>
+
+  <section class="team-members">
+    <div class="member" data-name="Bharath Krishna" data-role="AI Enthusiast" data-description="Loves Reading manga and watching anime.">
+      <img src="Bharath.jpg" alt="Member 1">
+      <h3>Bharath Krishna</h3>
+      <p>AI Enthusiast</p>
+    </div>
+
+    <div class="member" data-name="Aditeya J" data-role="Future Engineer" data-description="Master Of fucking things up">
+      <img src="Aditeya.jpg" alt="Member 2">
+      <h3>Aditeya J</h3>
+      <p>Future Engineer</p>
+    </div>
+
+    <div class="member" data-name="Arathy M" data-role="UI/UX Designer" data-description="Creates intuitive Design using figma">
+      <img src="ARATHY.jpg" alt="Member 3">
+      <h3>Arathy M</h3>
+      <p>UI/UX Designer</p>
+    </div>
+
+    <div class="member" data-name="Abhijith K" data-role="Project Adviser" data-description="Keeps everything mESSY">
+      <img src="ABHIJITH.jpg" alt="Member 4">
+      <h3>Abhijith K</h3>
+      <p>Project Adviser</p>
+    </div>
+
+    <div class="member" data-name="Yadu krishnan S" data-role=" Tester" data-description="Tests every bug on screen">
+        <img src="Yadu.jpg" alt="Member 5">
+        <h3>Yadu krishnan S</h3>
+        <p>Tester</p>
       </div>
-    </section>
-    <footer class="primary-footer container group">
-        <small>&copy; Model Engineering College</small>
-      </footer>  
-  </body>
+
+
+
+  </section>
+
+  <section class="our-skills">
+    <h2>Our Skills</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      
+    </ul>
+  </section>
+
+  <div id="member-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <h2 id="modal-name"></h2>
+      <p id="modal-role"></p>
+      <p id="modal-description"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Wining team</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
